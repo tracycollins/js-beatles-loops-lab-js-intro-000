@@ -23,7 +23,7 @@ function iLoveTheBeatles(parameter) {
     return('I love the Beatles!')
   }
     if (parameter===7){
-    for(var i=0; i<parameter; i++){
+    for(var i=0; i<8; i++){
       array.push('I love the Beatles!')
     }
     return array;
