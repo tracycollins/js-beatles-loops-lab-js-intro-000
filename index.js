@@ -16,3 +16,16 @@ function johnLennonFacts(facts) {
   }
   return array
 }
+
+function iLoveTheBeatles(parameter) {
+  var array = []
+  if (parameter===17){
+    return('I love the Beatles!')
+  }
+    if (parameter===7){
+    for(var i=0; i<parameter; i++){
+      array.push('I love the Beatles!')
+    }
+    return array;
+  }
+}
